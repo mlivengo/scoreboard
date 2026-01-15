@@ -1,0 +1,44 @@
+
+KodeMono{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1b244a;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 92px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: "Kode Mono", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #9aabd8;
+    font-family: "Kode Mono", sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    border-color: #9aabd8;
+    border-style: solid;
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+}
